@@ -16,7 +16,7 @@
 * Часть 2: Реализация функций
 В файле calculator.py создайте 3 функции:
 
-  1. calculate_simple_interest(principal, rate, time)
+*  1. calculate_simple_interest(principal, rate, time)
      
     * Формула: principal * rate * time / 100
 
@@ -24,7 +24,7 @@
 
     * При отрицательных аргументах вызывает ValueError("Аргументы должны быть неотрицательными")
 
-  2. calculate_compound_interest(principal, rate, time, n=1)
+*  2. calculate_compound_interest(principal, rate, time, n=1)
 
     * Формула: principal * (1 + rate/(100*n))**(n*time)
 
@@ -32,7 +32,7 @@
 
     * При некорректных аргументах вызывает ValueError
 
-  3. calculate_tax(amount, tax_rate)
+*  3. calculate_tax(amount, tax_rate)
 
     * Формула: amount * tax_rate / 100
 
@@ -43,7 +43,7 @@
 * Часть 3: Написание тестов
 В файле tests/test_calculator.py напишите тесты:
 
-  1.  Для каждой функции проверьте:
+*  1.  Для каждой функции проверьте:
 
     * Правильность расчёта (минимум 2 примера)
 
